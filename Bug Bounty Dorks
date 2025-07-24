@@ -1,0 +1,64 @@
+("bug bounty" | "responsible disclosure" | "vulnerability disclosure" | "security vulnerability" | "report vulnerability" | "submit vulnerability report") ("bounty" | "reward" | "swag" | "hall of fame" | "report" | "program" | "policy")
+
+intitle:"responsible disclosure" | intitle:"bug bounty" | intitle:"vulnerability disclosure"
+
+inurl:security.txt | inurl:/.well-known/security | inurl:vulnerability-disclosure-policy | inurl:reporting-security-issues | inurl:security-policy.txt
+
+(filetype:txt inurl:security | inurl:/.well-known/security) -github.com -wikipedia.org
+
+"powered by bugcrowd" -site:bugcrowd.com
+"powered by hackerone" -site:hackerone.com
+"powered by synack" -site:synack.com
+"powered by intigriti" -site:intigriti.com
+
+site:*.gov.* "responsible disclosure" | site:*.edu "responsible disclosure" | site:*.mil "responsible disclosure"
+
+site:*.nl "responsible disclosure" | site:*.uk "responsible disclosure" | site:*.eu "responsible disclosure" | site:*.in "responsible disclosure" | site:*.de "responsible disclosure" | site:*.cn "responsible disclosure" | site:*.br "responsible disclosure" | site:*.au "responsible disclosure" | site:*.be "responsible disclosure" | site:*.at "responsible disclosure"
+
+site:security.*.* inurl:bounty | site:help.*.* inurl:bounty | site:support.*.* intext:security report reward
+
+inurl:"bug bounty" (intext:"$" | intext:"€" | intext:"INR" | intext:"rupees" | intext:"₹" | intext:"btc" | intext:"ETH")
+
+"if you find a security issue" "reward" | "if you believe you've found a security vulnerability"
+
+"we take security very seriously" "report"
+
+"bug bounty" "cms" | "bug bounty" "wordpress" | "bug bounty" "joomla" | "bug bounty" "magento"
+
+"submit vulnerability report" | "report a security vulnerability"
+
+"responsible disclosure" intext:"eligible for monetary compensation"
+
+inurl:/trust/report-a-vulnerability | inurl:/security/report-a-vulnerability
+
+site:github.com intext:"security.txt" | site:github.com intext:"responsible disclosure"
+
+intitle:"security vulnerability disclosure" | intitle:"bug bounty program"
+
+allintext:"security vulnerability" "report" "reward"
+
+site:*.edu intext:security report vulnerability | site:*.edu intext:bug bounty
+
+site:*.gov intext:bug bounty | site:*.mil intext:bug bounty
+
+"vulnerability disclosure policy" | "responsible disclosure policy"
+
+inurl:"bug bounty" "report vulnerability"
+
+inurl:"security report" (intext:"reward" | intext:"bounty" | intext:"monetary compensation")
+
+intext:"bug bounty" | intext:"security reward program" | intext:"report vulnerability and receive"
+
+intext:"bugbounty" intext:"btc" intext:"reward"
+
+inurl:bug bounty intext:reward | inurl:bug bounty intext:swag | inurl:bug bounty intext:hall of fame
+
+"powered by yeswehack" -site:yeswehack.com | "powered by openbugbounty" -site:openbugbounty.org
+
+site:*.io "responsible disclosure" | site:*.dev "responsible disclosure"
+
+"we offer a bounty" | "security research program"
+
+"report your findings to our security team"
+
+site:*.com inurl:"security.txt" "bounty" | site:*.org inurl:"security.txt" "bounty"
