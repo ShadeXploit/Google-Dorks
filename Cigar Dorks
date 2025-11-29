@@ -1,0 +1,49 @@
+# Add your own favorite cigar brands to your liking! 
+
+### **General sale/discount variants**
+
+```
+"Java Latte" cigars ("on sale" | discount | clearance | deal | promo | special | markdown | bargain | cheap | savings)
+```
+
+### **Add common retailer wording**
+
+```
+"Java Latte" cigars ("sale" | "price drop" | "limited time" | "today only" | "blowout" | "flash sale")
+```
+
+### **Target pages that list prices**
+
+```
+"Java Latte" cigars ("$" | price | "price list" | "per box" | "per pack")
+```
+
+### **Catch bundle/sampler deals**
+
+```
+"Java Latte" cigars (bundle | sampler | pack | multi-pack | variety | combo)
+```
+
+### **Look for coupon or promo code pages**
+
+```
+"Java Latte" cigars (coupon | "promo code" | voucher | discount code)
+```
+
+### **Target known cigar shops but keep it broad**
+
+```
+"Java Latte" cigars ("sale" | discount | clearance) site:.com
+```
+
+### **Search forum-style deal posts**
+
+```
+"Java Latte" cigars ("deal" | "on sale") (forum | reddit | discussion)
+```
+
+### **Search for reviews that mention pricing**
+
+```
+"Java Latte" cigars ("price" | "worth it" | "best deal" | "cheapest")
+```
